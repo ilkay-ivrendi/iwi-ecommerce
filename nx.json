@@ -35,6 +35,12 @@
     },
     "api-interfaces": {
       "tags": []
+    },
+    "iwi-installer": {
+      "tags": ["ui", "install", "database"]
+    },
+    "iwi-ui": {
+      "tags": []
     }
   }
 }
