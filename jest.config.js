@@ -5,5 +5,6 @@ module.exports = {
     '<rootDir>/libs/api-interfaces',
     '<rootDir>/libs/iwi-installer',
     '<rootDir>/libs/iwi-ui',
+    '<rootDir>/libs/iwi-auth',
   ],
 };
