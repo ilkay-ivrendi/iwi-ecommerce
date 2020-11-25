@@ -5,6 +5,7 @@ import { MaterialModule } from './material.module';
 import { HeaderComponent } from './header/header.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { HomeModule } from './home/home.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 const routes: Routes = [
   {
@@ -22,10 +23,11 @@ const routes: Routes = [
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule.forChild(routes),
     MaterialModule,
+    FlexLayoutModule,
     LayoutModule,
     HomeModule,
+    RouterModule.forChild(routes),
   ],
   declarations: [HeaderComponent],
   exports: [HeaderComponent],

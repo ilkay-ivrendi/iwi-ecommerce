@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { RegisterRoutingModule } from './register-routing.module';
 import { RegisterComponent } from './register.component';
+import { MaterialModule } from '@iwi/iwi-ui';
 
 const routes: Routes = [
   { path: '', component: RegisterComponent }
@@ -13,6 +14,7 @@ const routes: Routes = [
   declarations: [RegisterComponent],
   imports: [
     CommonModule,
+    MaterialModule,
     RegisterRoutingModule,
     RouterModule.forChild(routes)
   ]

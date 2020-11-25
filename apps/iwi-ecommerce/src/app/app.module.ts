@@ -8,6 +8,8 @@ import { IwiUiModule } from '@iwi/iwi-ui';
 import { IwiAuthModule } from '@iwi/iwi-auth';
 import { RouterModule } from '@angular/router';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { IwiInstallerModule } from "@iwi/iwi-installer";
+
 @NgModule({
   declarations: [AppComponent],
   imports: [
@@ -17,6 +19,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
     MatGridListModule,
     IwiUiModule,
     IwiAuthModule,
+    IwiInstallerModule,
     RouterModule.forRoot([]),
   ],
   providers: [],
